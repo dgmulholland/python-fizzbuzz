@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
+## [2.5.2] - 2023-03-03
+
+Changed
+
+- Changed dir structure to separate app code and tests. Minor refactor in 'fizzbuzz/__ini__.py' to support this
+- Minor typo in 'tests/test_fizzbuzz.py'
+
 ## [2.5.1] - 2023-03-03
 
 Changed
