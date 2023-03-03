@@ -32,7 +32,7 @@ def test_fizzbuzz_defaults():
 
 
 def test_fizzbuzz_custom():
-    """Test FizzBuzz gives coprrect output when passed custom parameters"""
+    """Test FizzBuzz gives correct output when passed custom parameters"""
     output = fizzbuzz.play_fizzbuzz(1, 20, {3: 'Foo', 5: 'Bar'})
     assert ['1', '2', 'Foo', '4', 'Bar', 'Foo', '7', '8', 'Foo', 'Bar',
             '11', 'Foo', '13', '14', 'FooBar', '16', '17', 'Foo', '19', 'Bar']
