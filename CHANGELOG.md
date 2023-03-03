@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
+## [2.5.1] - 2023-03-03
+
+Changed
+
+- Changed docker commands in README.md to include '--rm' flag to remove the exited container after execution
+
 ## [2.5.0] - 2023-03-03
 
 Changed

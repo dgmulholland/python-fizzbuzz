@@ -117,7 +117,7 @@ Docker:
 
 ```bash
 docker build . -t fizzbuzz
-docker run fizzbuzz
+docker run --rm fizzbuzz
 1
 2
 Fizz
@@ -144,7 +144,7 @@ or
 
 ```bash
 docker build . -t fizzbuzz
-docker run fizzbuzz --start 5 --end 27 --divisors '{6: "Foo", 8: "Bar"}'
+docker run --rm fizzbuzz --start 5 --end 27 --divisors '{6: "Foo", 8: "Bar"}'
 5
 Foo
 7
