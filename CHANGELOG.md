@@ -7,18 +7,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
+## [2.5.3] - 2023-03-03
+
+Changed
+
+- Backticks around code in this file
+
+Fixed
+
+- Minor typos in this file
+
 ## [2.5.2] - 2023-03-03
 
 Changed
 
-- Changed dir structure to separate app code and tests. Minor refactor in 'fizzbuzz/__ini__.py' to support this
-- Minor typo in 'tests/test_fizzbuzz.py'
+- Changed dir structure to separate app code and tests. Minor refactor in `fizzbuzz/__init__.py` to support this
+- Minor typo in `tests/test_fizzbuzz.py`
 
 ## [2.5.1] - 2023-03-03
 
 Changed
 
-- Changed docker commands in README.md to include '--rm' flag to remove the exited container after execution
+- Changed docker commands in README.md to include `--rm` flag to remove the exited container after execution
 
 ## [2.5.0] - 2023-03-03
 
@@ -27,7 +37,7 @@ Changed
 - App now runs with python 3.10
 - Dockerfile now uses python:3.10-alpine rather than python:3.8
 - Dockerfile now installs dependencies from requirements.txt rather than pipfile
-- Updated CHANGELOG.md to use '-' instead of '*' for bullets
+- Updated CHANGELOG.md to use `-` instead of `*` for bullets
 
 ## [2.4.0] - 2022-04-28
 
@@ -50,7 +60,7 @@ Fixed
 Changed
 
 * config.py format - now a single dict containing all config items
-* Now using ```config['item']``` syntax to bring in variables
+* Now using `config['item']` syntax to bring in variables
 
 ## [2.2.0] - 2022-01-13
 
@@ -60,13 +70,13 @@ Added
 
 Fixed
 
-* Fixed "dangerous default parameter" warning in ```play_fizzbuzz()```. Default is now "None" and is set inside the function
+* Fixed "dangerous default parameter" warning in `play_fizzbuzz()`. Default is now "None" and is set inside the function
 
 ## [2.1.0] - 2022-01-13
 
 Added
 
-* ```__main__.py``` file so the package can be run directly
+* `__main__.py` file so the package can be run directly
 
 Changed
 
@@ -75,13 +85,13 @@ Changed
 
 Fixed
 
-* config import in fizzbuyzz.py file
+* config import in fizzbuzz.py file
 
 ## [2.0.0] - 2021-06-15
 
 Changed
 
-* Removed ```playFizzBuzz()``` function
+* Removed `playFizzBuzz()` function
 
 ---
 
@@ -89,11 +99,11 @@ Changed
 
 Added
 
-* New ```play_fizzbuzz()``` function
+* New `play_fizzbuzz()` function
 
 Changed
 
-* Deprecated ```playFizzBuzz()``` function [will be removed from v2.0.0]
+* Deprecated `playFizzBuzz()` function [will be removed from v2.0.0]
 
 ---
 
