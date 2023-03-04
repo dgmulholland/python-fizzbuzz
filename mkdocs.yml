@@ -1,0 +1,18 @@
+site_name: FizzBuzz
+repo_url: https://github.com/dgmulholland/python-fizzbuzz
+
+theme:
+  name: readthedocs
+
+nav:
+  - Home: README.md
+  - FizzBuzz: fizzbuzz.md
+
+plugins: 
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          options:
+            show_source: false
