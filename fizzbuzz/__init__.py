@@ -1,5 +1,5 @@
 """FizzBuzz initialisation"""
 
-from .src.version import __version__
+from .version import __version__
 
-from .src.fizzbuzz import play_fizzbuzz
+from .fizzbuzz import play_fizzbuzz
