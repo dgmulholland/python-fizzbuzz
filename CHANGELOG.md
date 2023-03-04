@@ -7,6 +7,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
+## [2.6.0] - 2023-03-04
+
+Added
+
+- Documentation via mkdocs
+
+Changed
+
+- Directory structure to better separate app code & tests
+
 ## [2.5.3] - 2023-03-03
 
 Changed
