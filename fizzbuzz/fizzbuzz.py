@@ -4,25 +4,26 @@ from .config import config
 
 
 def play_fizzbuzz(start: int = 1, end: int = 20, divisors: dict = None) -> list:
-    """Play the FizzBuzz Game
+    """Play the FizzBuzz Game.
 
     Args:
         start:
-            The integer to start counting from
+            The integer to start counting from.
         end (Integer):
-            The integer to finish counting at
+            The integer to finish counting at.
         divisors (Dictionary):
-            A dictionary of divisors and their replacement strings
+            A dictionary of divisors and their replacement strings.
 
     Returns:
-        final_output (List): A list of strings containing each number or its replacement
+        final_output (List): A list of strings containing each number or its replacement.
 
             For example:
 
                 ['1', '2', 'Fizz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz']
 
     Raises:
-        TypeError: A variable of incorrect type was passed
+        TypeError: A variable of incorrect type was passed.
+        ValueError: A variable has a bad value.
     """
 
     # if no divisors are passed, use defaults from config
