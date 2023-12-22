@@ -1,3 +1,0 @@
-# FizzBuzz
-
-::: fizzbuzz.fizzbuzz
