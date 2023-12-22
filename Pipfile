@@ -7,9 +7,6 @@ verify_ssl = true
 autopep8 = "*"
 pytest = "*"
 pylint = "*"
-mkdocs = "*"
-mkdocstrings = "*"
-mkdocstrings-python = "*"
 
 [packages]
 deprecated = "*"
